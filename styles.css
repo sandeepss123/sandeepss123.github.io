@@ -1,0 +1,81 @@
+.bg-teal{
+    background-color: #105a5a !important;
+}
+.text-teal{
+    color: #105a5a !important;
+}
+.btn-teal {
+    background-color: #105a5a !important;
+}
+
+.img-box-shadow{
+    box-shadow: 0 0 5px 1px black;
+}
+.img-border-radius{
+    border-radius:10px ;
+}
+
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 12px;
+    width: 12px;
+    border-radius:  !important;
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px lightcoral;
+    transition: 0.5s;
+}
+
+.card-hover:hover{
+    background-color: teal!important;
+    box-shadow: 0 0 5px 2px black!important;
+    color: white!important;
+    border-radius:10px!important;
+    transform: perspective(400px) rotateX(-10deg)!important;
+    transition: 0.4s!important;
+}
+.card-hover:hover h4{
+    color: white !important;
+    text-decoration:overline;
+}
+
+.card-hover-1:hover{
+    box-shadow: 0 0 5px 2px black!important;
+    border-radius:10px!important;
+    transform: perspective(400px) rotateY(-10deg)!important;
+    transition: 0.4s!important;
+}
+
+.card img{
+    margin-top: -70px;
+}
+
+   nav {
+        transform:skewY(13deg);
+        width: 800px!important;
+        margin-left: auto!important;
+    }
+
+
+nav .active{
+    background-color: #3e2723!important;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+/*
+        nav{
+            position: sticky!important;
+            width: 1400px;
+            margin-left: 47.5%!important;
+            transform: rotate(90deg)!important;
+        }
+
+        nav .navbar-brand {
+            margin-left: 535px!important;
+        }
+        nav .navbar-nav{
+            width: 500px!important;
+            margin-left: 122px!important;
+        }
+
+*/
